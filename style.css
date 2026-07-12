@@ -21,7 +21,6 @@ body{
     color: var(--ink);
     font-family: var(--sans);
     line-height: 1.5;
-    padding:50px;
     -webkit-font-smoothing: antialiased;
 }
  
@@ -90,7 +89,7 @@ nav.wrap{
  
 /* ---------- Hero ---------- */
 .hero{
-    padding: 96px 0 72px;
+    padding: 50px;
     border-bottom: 1px solid var(--line);
 }
 
