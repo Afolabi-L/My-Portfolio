@@ -467,6 +467,7 @@ footer :hover {
     .project-dot{ display: none; }
     .project-img{ width: 100%; }
     .navlinks{ gap: 16px; }
+    p{ font-size: 12px; }
 }
 
  
