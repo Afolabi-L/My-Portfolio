@@ -68,12 +68,13 @@ nav.wrap{
     border-radius: 50%;
 }
 .logo span{ color: var(--accent); }
-  .navlinks{
+
+.navlinks{
     display: flex;
     gap: 28px;
     list-style: none;
     font-family: var(--mono);
-    font-size: 13px;
+    font-size: 17px;
 }
 
 .navlinks a{
@@ -82,7 +83,9 @@ nav.wrap{
     transition: color .15s ease;
 }
 
-.navlinks a:hover, .navlinks a:focus-visible{ color: var(--ink); }
+.navlinks a:hover, .navlinks a:focus-visible{ 
+    color: var(--ink); 
+}
  
 /* ---------- Hero ---------- */
 .hero{
@@ -441,9 +444,15 @@ section{ padding: 72px 0; border-bottom: 1px solid var(--line); }
 footer{
     padding: 28px 0 60px;
     font-family: var(--mono);
-    font-size: 12px;
+    font-size: 15px;
     color: var(--muted);
     text-align: center;
+    transition: .3s ease;
+}
+
+footer :hover {
+    color: var(--ink);
+    cursor: pointer;
 }
 
  
