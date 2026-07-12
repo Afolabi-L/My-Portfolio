@@ -177,17 +177,21 @@ h1{
     color: var(--bg);
     transition: .3s ease;
 }
-.btn-primary:hover{ 
+
+.btn-primary.btn-pressed{
     background: var(--bg); 
     border-color: var(--ink);
     color: var(--ink); 
 }
+
+
 .btn-ghost{
     background: transparent;
     color: var(--ink);
     transition: .3s ease;
 }
-.btn-ghost:hover{ 
+
+.btn-ghost.btn-pressed{
     background: var(--ink); 
     color: var(--bg);
 }
