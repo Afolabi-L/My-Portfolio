@@ -36,6 +36,7 @@ a { color: inherit; }
 
 p{
     font-family: var(--mono);
+    font-size: 13px;
 }
  
 /* ---------- Nav ---------- */
@@ -74,7 +75,7 @@ nav.wrap{
     gap: 28px;
     list-style: none;
     font-family: var(--mono);
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .navlinks a{
@@ -89,7 +90,7 @@ nav.wrap{
  
 /* ---------- Hero ---------- */
 .hero{
-    padding: 50px;
+    padding: 96px 0 72px;
     border-bottom: 1px solid var(--line);
 }
 
