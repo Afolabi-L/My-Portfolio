@@ -467,7 +467,8 @@ footer :hover {
     .project-dot{ display: none; }
     .project-img{ width: 100%; }
     .navlinks{ gap: 16px; }
-    p{ font-size: 12px; }
+    .hero-role{ font-size: clamp(13px, 2vw, 18px); }
+    p{ font-size: 10px; }
 }
 
  
