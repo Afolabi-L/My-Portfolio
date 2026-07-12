@@ -178,21 +178,35 @@ h1{
     transition: .3s ease;
 }
 
-.btn-primary:hover{ 
-    background: var(--bg); 
-    border-color: var(--ink);
-    color: var(--ink); 
-}
-
 .btn-ghost{
     background: transparent;
     color: var(--ink);
     transition: .3s ease;
 }
 
-.btn-ghost:hover{ 
-    background: var(--ink); 
+@media (hover: hover) and (pointer: fine) {
+    .btn-primary:hover{ 
+        background: var(--bg); 
+        border-color: var(--ink);
+        color: var(--ink); 
+    }
+    .btn-ghost:hover{ 
+        background: var(--ink); 
+        color: var(--bg);
+    }
+}
+
+.btn-primary:active{
+    background: var(--bg);
+    border-color: var(--ink);
+    color: var(--ink);
+    transform: scale(0.97);
+}
+
+.btn-ghost:active{
+    background: var(--ink);
     color: var(--bg);
+    transform: scale(0.97);
 }
 
 /* Hero icon transition */
