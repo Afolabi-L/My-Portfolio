@@ -5,6 +5,6 @@ btns.forEach(btn => {
         btn.classList.add('btn-pressed');
         setTimeout(() => {
             btn.classList.remove('btn-pressed');
-        }, 400);
+        }, 200);
     });
 });
